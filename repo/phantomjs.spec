@@ -26,5 +26,5 @@ mkdir -p $RPM_BUILD_ROOT/usr/bin/
 cp bin/%{name} $RPM_BUILD_ROOT/usr/bin/ 
 
 %files
-%defattr(0744,root,root)
+%defattr(0777,root,root)
 /usr/bin/%{name}
